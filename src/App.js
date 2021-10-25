@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import { MyContext } from './context';
 
+import 'animate.css';
 import './assets/App.css';
 import Initial from './components/initial';
 import Confirm from './components/confirm';
