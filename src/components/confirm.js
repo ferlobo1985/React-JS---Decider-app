@@ -1,10 +1,12 @@
-
+import { useContext } from 'react'
+import { MyContext } from '../context';
 
 const Confirm = () => {
+    const context = useContext(MyContext);
 
     return(
         <div>
-            confirm
+            { context.state.question }
         </div>
     )
 
