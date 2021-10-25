@@ -65,17 +65,17 @@ margin-top: 20px;
 
 
 
-.zoom-enter {
-  transform: scale(0%);
-  transition: 0.4s linear;
+.fade-enter {
+  opacity: 0;
 }
-.zoom-enter-active {
-  transform: scale(100%);
+.fade-enter-active {
+  transition: 0.5s;
+  opacity: 1;
 }
-.zoom-exit {
-  transform: scale(0%);
-  transition: 0.4s linear;
+.fade-exit {
+  opacity: 1;
 }
-.zoom-exit-active {
-  transform: sale(100%);
+.fade-exit-active {
+  transition: 0.5s;
+  opacity: 0;
 }
